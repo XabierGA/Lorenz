@@ -66,7 +66,7 @@ def phase_space_sol(dx,dy,t,number_solutions = 9,t_points=20 , title="Title",xli
 
 	@dx,dy = lambda functions governing the system, defined as in the first case
 	@t = max time which will be used for integration
-	
+	'''
     tspan = np.linspace(0.1,t,t_points)
     x_0 = np.linspace(*x_initial , int(np.sqrt(number_solutions)))
     y_0 = np.linspace(*y_initial , int(np.sqrt(number_solutions)))
