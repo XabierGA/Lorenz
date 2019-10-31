@@ -6,7 +6,7 @@ def plot_quiver(dx , dy , xlims=[-2.5,2.5] , ylims=[-2.5,2.5] , title="Dyn" , pl
     '''
     Plot the vector field for a 2D system of differential equations/dynamical system
     
-    ->Arguments:
+    ->Arguments :
 
     @dx,dy : Equation for dx/dt and dy/dt respectively, must be defined as lambda function
 
